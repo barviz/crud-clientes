@@ -9,7 +9,7 @@ formulario.addEventListener("submit", (evento) => {
   clienteServices
     .crearCliente(nombre, email)
     .then(() => {
-      window.location.href = "/screens/registro-completado.html";
+      window.location.href = "/screens/lista-cliente.html";
     })
     .catch((err) => console.log(err));
 });
